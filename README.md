@@ -8,7 +8,7 @@
 
 ---
 
-## 👥 ROLES DEL EQUISPO
+## 👥 ROLES DEL EQUIPO
 
 
 
