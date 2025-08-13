@@ -57,7 +57,7 @@
 
 **Criterio de aceptacion**
 
-## HERRamientas usadas.
+## HERRAMIENTAS USADAS.
 
 
 
