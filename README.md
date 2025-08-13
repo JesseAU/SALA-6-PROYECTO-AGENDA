@@ -18,10 +18,10 @@ Permite **agregar**, **editar**, **eliminar** y **guardar** tareas con prioridad
 ## 📂 Estructura del Proyecto
 
 📁 agenda-tareas/
-│── gui.py # Interfaz gráfica (Frontend)
-│── logic.py # Lógica y manejo de datos (Backend)
-│── tareas.json # Archivo donde se guardan las tareas
-│── README.md # Este archivo
+- gui.py # Interfaz gráfica (Frontend)
+- logic.py # Lógica y manejo de datos (Backend)
+- tareas.json # Archivo donde se guardan las tareas
+- README.md # Este archivo
 
 ---
 
