@@ -1,0 +1,44 @@
+name: Django CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Chequear código
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Instalar dependencias
+      run: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install --upgrade pip
+        pip install django
+
+    - name: Aplicar migraciones
+      run: |
+        source venv/bin/activate
+        python manage.py migrate
+
+    - name: Correr tests
+      run: |
+        source venv/bin/activate
+        python manage.py test
+
+    - name: Levantar servidor (opcional para debug)
+      run: |
+        source venv/bin/activate
+        nohup python manage.py runserver 0.0.0.0:8000 &
