@@ -2,7 +2,7 @@
 # 📅 Agenda de Tareas Personales (Python + Tkinter)
 
 Aplicación de escritorio simple para gestionar tareas personales con interfaz gráfica en **Tkinter** y almacenamiento en **JSON**.  
-Permite **agregar**, **editar**, **eliminar** y **guardar** tareas con prioridad, fecha límite y estado.
+Permite **agregar**, **editar**, **eliminar** y **guardar** tareas con prioridad, fecha límite y estados.
 
 ---
 
