@@ -1,40 +1,71 @@
 
+<<<<<<< HEAD
+=======
+# 1️⃣ Crear carpeta y moverse a ella
+mkdir agenda
+cd agenda
+=======
+
+>>>>>>> 41630bff711b74f429ccf4afba3bf738d6cb2c15
 # 📅 Agenda de Tareas Personales (Python + Tkinter)
 
-Aplicación de escritorio simple para gestionar tareas personales con interfaz gráfica en **Tkinter** y almacenamiento en **JSON**.  
-Permite **agregar**, **editar**, **eliminar** y **guardar** tareas con prioridad, fecha límite y estado.
 
----
+# 2️⃣ Crear entorno virtual (opcional pero recomendado)
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/Mac
+# source venv/bin/activate
 
-## 🚀 Características
+# 3️⃣ Instalar Django
+pip install django
 
-- 📌 **Agregar tareas** con descripción, fecha límite, prioridad y estado.
-- ✏ **Editar tareas** directamente desde la tabla.
-- ❌ **Eliminar tareas** seleccionadas.
-- 🗃 **Guardado automático** en archivo `tareas.json`.
-- 🖥 **Interfaz gráfica** amigable usando `Tkinter` y `ttk`.
+# 4️⃣ Crear proyecto Django en la carpeta actual
+django-admin startproject agenda .
 
----
+# 5️⃣ Crear app 'tareas'
+python manage.py startapp tareas
 
-## 📂 Estructura del Proyecto
+# 6️⃣ Aplicar migraciones iniciales
+python manage.py migrate
 
+<<<<<<< HEAD
+📁 agenda-tareas/  
+- `gui.py` → Interfaz gráfica (Frontend)  
+- `logic.py` → Lógica y manejo de datos (Backend)  
+- `tareas.json` → Archivo donde se guardan las tareas  
+- `README.md` → Este archivo  
+=======
+# 7️⃣ Crear superusuario
+# Usuario: Yamir
+# Email: kitikazis@gmail.com
+# Contraseña: 1234
+python manage.py shell -c "from django.contrib.auth.models import User; User.objects.create_superuser('Yamir','kitikazis@gmail.com','1234')"
+>>>>>>> 41630bff711b74f429ccf4afba3bf738d6cb2c15
+
+# 8️⃣ Levantar servidor de desarrollo
+python manage.py runserver
+=======
 📁 agenda-tareas/  
 - `gui.py` → Interfaz gráfica (Frontend)  
 - `logic.py` → Lógica y manejo de datos (Backend)  
 - `tareas.json` → Archivo donde se guardan las tareas  
 - `README.md` → Este archivo  
 
----
 
-## 🛠 Requisitos
 
-- Python **3.8 o superior**
-- No se requieren librerías externas (solo módulos estándar de Python).
+✅ Próximos pasos
 
----
+Abrir navegador:
 
-## ▶ Ejecución
+CRUD principal: http://127.0.0.1:8000/
 
+Admin Django: http://127.0.0.1:8000/admin
+
+
+Yamir-1234
+Crear tus modelos, formularios y plantillas como te mostré antes para el CRUD con Bootstrap y calendario.
+=======
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tuusuario/agenda-tareas.git
