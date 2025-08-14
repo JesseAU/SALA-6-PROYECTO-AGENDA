@@ -68,37 +68,25 @@ Permite **agregar**, **editar**, **eliminar** y **guardar** tareas con prioridad
 
 **HU-1 Como usuario, quiero añadir una nueva tarea con título, descripción y fecha límite, para organizar mis pendientes**
 
+**El usuario puede añadir un título a la tarea (obligatorio).**
+
 **Criterio de aceptacion**
+**Se muestra una lista con todas las tareas creadas.**
 
 **HU-2 Como usuario, quiero ver todas mis tareas en una lista con su estado, para llevar control de mis pendientes.**
 
 **criterio de aceptacion**
+**Las tareas nuevas se guardan de forma automática al crearse.**
 
 **HU-3 Como usuario, quiero que las tareas se guarden incluso si cierro el programa, para no perder información.**
 
 **Criterio de aceptacion**
 
-**HU-4 Como usuario, quiero editar una tarea existente, para corregir o actualizar su información.**
-
-**Criterio de aceptacion**
-
-**HU-5 Como usuario, quiero eliminar una tarea, para quitarla de la agenda cuando ya no sea necesaria.**
-
-**Criterio de Aceptacion**
-
-**HU-6 Como usuario, quiero una interfaz gráfica amigable, para que sea fácil de usar.**
-
-**Criterio de aceptacion**
-
-**HU-7 Como desarrollador, quiero poder visualizar todo el programa terminado fusionado en la rama principal para su despliegue**
-
-**Criterio de aceptacionn**
-
-**HU-8 Como Scrum Master, debo visualizar el avance de cada desarrollador en su rama asignada para poder controlar el desarollo y realizar pruebas**
-
-**Criterio de aceptacion**
+**El diseño debe ser claro, con botones y textos legibles.**
 
 ## HERRAMIENTAS USADAS.
+
+**python**
 
 
 
