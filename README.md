@@ -41,9 +41,7 @@ Permite **agregar**, **editar**, **eliminar** y **guardar** tareas con prioridad
    cd agenda-tareas
    python gui.py
 
-# SALA-6-PROYECTO-AGENDA
-
-## 🧪 Proyecto: Agenda de tareas 
+ 
 ---
 ## 🎯 Objetico del sprint (Sprint goal)
 
